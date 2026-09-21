@@ -50,3 +50,10 @@ Set is a collection of data type similar to tuple.
 
 Example: {2, 4, 3, 5}
 {3.15, 8.32, 3.5}
+
+# Question2
+x1, y1 = 2, 3
+x2, y2 = 10, 8
+
+distance = math.sqrt((x1 - x2)**2 + (y1 - y2)**2)
+print(distance)
