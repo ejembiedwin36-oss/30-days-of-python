@@ -6,8 +6,10 @@ full_name = 'Edwin Ejembi'
 contry = 'Nigeria'
 city = 'otukpo'
 age = 25
+year = 2001
 is_married = "married"
 is_true = 'True'
+is_light = "brightness"
 name_fruit, car_name, homw_town, age, user_name = 'apple', 'toyotal', 'GRA', 23, 'ejembi'
 # print the output(result).
 print(first_name)
@@ -16,8 +18,10 @@ print(full_name)
 print(contry)
 print(city)
 print(age)
+print(year)
 print(is_married)
 print(is_true)
+print(is_light)
 print(name_fruit, car_name, homw_town, age, user_name)
 
 # Exercises: Level 2
@@ -27,8 +31,10 @@ print(type(full_name))
 print(type(contry))
 print(type(city))
 print(type(age))
+print(type(year))
 print(type(is_married))
 print(type(is_true))
+print(type(is_light))
 print(type(name_fruit), type(car_name), type(homw_town), type(age), type(user_name))
 
 print(len(first_name))
