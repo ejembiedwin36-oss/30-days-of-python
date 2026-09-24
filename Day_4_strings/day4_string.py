@@ -40,5 +40,7 @@ print(check_well)
 #print(char[5])  # g
 
 words = 'Coding For All'
-print(words[10])   # spac
+print(words[10])   # space
 
+text = "Coding For All"
+print(text[10])
