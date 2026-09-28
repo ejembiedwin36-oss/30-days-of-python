@@ -35,12 +35,14 @@ print(new_bag)
 check = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" 
 check_well = check.split()
 print(check_well)
-#char = 'coding'
+#char = 'coding'S
 #print(char[0])  # C
 #print(char[5])  # g
 
-words = 'Coding For All'
-print(words[10])   # space
+#words = 'Coding For All'
+#print(words[10])   # space
 
-text = "Coding For All"
-print(text[10])
+#text = "Coding For All"
+#print(text[10])
+# contination
+
