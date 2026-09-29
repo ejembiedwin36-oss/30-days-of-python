@@ -1,4 +1,4 @@
-"""age = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+age = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 age.sort()
 print(age, '\n')
 
@@ -8,7 +8,7 @@ max_age = max(ages)
 
 ages.append(min_age)
 ages.append(max_age)
-print(ages)"""
+print(ages)
 
 
 ages =[19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
@@ -50,3 +50,18 @@ else:
 print(f"Total countries inlist: {n}")
 print(f"The middle country(ies): {middle_countries}")
 
+split_index = (len(countries) + 1) // 2
+first_half = countries[:split_index]
+second_half = countries[split_index:]
+
+print(f"Total countries: {len(countries)}")
+print(f"First half length: {len(first_half)}")
+print(f"Second half length: {len(second_half)}")
+
+
+countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
+country1, country2, country3, *scandic_countries = countries
+print(f"First Country: {country1}")
+print(f"Second Country: {country2}")
+print(f"Third Country: {country3}")
+print(f"Scandic Countries: {scandic_countries}")
