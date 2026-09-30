@@ -22,4 +22,19 @@ food_stuff_lt = list(food_stuff_tp)
 print(food_stuff_lt)
 
 print(food_stuff_lt[7:9])
+# slice out the first three and last three item
+print(food_stuff_lt[0:2])
+print(food_stuff_lt[11:])
+print(len(food_stuff_lt))
 
+
+#char = del food_stuff_lt
+#print(char)
+result = ('mango' in food_stuff_lt)
+print(result)
+
+nordic_countries = ("Denmark", "Finland", "Iceland", "Norway", "Sweden")
+verify_countries = ('Estonia' in nordic_countries)
+print(verify_countries)
+go_again = ('Iceland' in nordic_countries)
+print(go_again)
