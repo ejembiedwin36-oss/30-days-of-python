@@ -26,3 +26,20 @@ else:
 
 # Set is an unordered collection of items inside curly braces.
 # example: unique_ids = {101, 102, 103}
+
+
+# 1. Strings cannot be edited in place
+text = "Hello"
+
+# 2. Lists can be edited freely
+my_list = [10, 20, 30]
+my_list.append(40) 
+my_list[0] = 99    
+
+# 3. Tuples are locked lists
+my_tuple = (10, 20, 30)
+# my_tuple.append(40) <-- This will cause an ERROR!
+
+# 4. Sets remove duplicates and don't care about order
+my_set = {1, 2, 2, 3, 3, 3}
+print(my_set) 
