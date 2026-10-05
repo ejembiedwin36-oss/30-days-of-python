@@ -43,3 +43,15 @@ my_tuple = (10, 20, 30)
 # 4. Sets remove duplicates and don't care about order
 my_set = {1, 2, 2, 3, 3, 3}
 print(my_set) 
+
+
+sentence = "I am a teacher and I love to inspire and teach people."
+clean_sentence = sentence.replace(".", "").lower()
+word_list = clean_sentence.split()
+
+uniqu_word_set = set(word_list)
+print(f"Oraginal word list (Length {len(word_list)}):")
+print(word_list)
+
+print(f"\nUnique word set (Length {len(uniqu_word_set)}):")
+print(uniqu_word_set)
