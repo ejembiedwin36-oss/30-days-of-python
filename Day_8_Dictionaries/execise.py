@@ -36,3 +36,19 @@ print(student)
 
 res = student
 print(len(res))
+
+student_skills = student['skills']
+print("skills value:0", student_skills)
+
+skills_type = type(student_skills)
+print("Data type:", skills_type)
+print('Modifying Items in a Dictionary')
+
+student['skills'] = ['python', 'java'],
+print(student, '\n')
+
+student_keys = list(student.keys())
+print(student_keys, '\n')
+
+student_values = list(student.values())
+print(student_values)
