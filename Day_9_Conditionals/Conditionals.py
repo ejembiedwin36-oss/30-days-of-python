@@ -1,5 +1,5 @@
 # Get user input using input(“Enter your age: ”). If user is 18 or older, give feedback: You are old enough to drive. If below 18 give feedback to wait for the missing amount of years. Output:
-"""
+
 user_input = int(input("Enter you age: "))
 if user_input >= 18:
     print("You are old enough to drive.")
@@ -28,7 +28,7 @@ elif your_age > my_age:
 
 else:
     print("We are the exact same age! We are tech-twins.")
-"""
+
 
 # Get two numbers from the user using input prompt. If a is greater than b return a is greater than b, if a is less b return a is smaller than b, else a is equal to b. Output:
 
