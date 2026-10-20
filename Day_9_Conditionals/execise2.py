@@ -1,6 +1,6 @@
 #Write a code which gives grade to students according to theirs scores:
 
-"""score = float(input("Enter the student's score (0 - 100): "))
+score = float(input("Enter the student's score (0 - 100): "))
 
 if score >= 90 and score <= 100:
     print("Grade: A")
@@ -15,13 +15,13 @@ elif score >= 0:
 else:
     print("Invalid score! Please enter a value between 0 and 100.")
 
-"""
+
 # Get the month from user input then check if the season is Autumn, Winter, Spring or Summer. If the user input is: September, October or November, the season is Autumn. December, January or February, the season is Winter. March, April or May, the season is Spring June, July or August, the season is Summer
 #The following list contains some fruits:
 month = input("|Enter a month: ").capitalize()
 
 if month in ["September", "October", "November"]:
-    print("The season is Authumn")
+    print9("The season is Authumn")
 elif month in ["December", "January", "February"]:
     print("The season is Winter.")
 elif month in ["March", "April", "May"]:
@@ -31,3 +31,15 @@ elif month in ["June", "July", "August"]:
 else:
     print("Invalid month! Please check your spelling and try again.")
 
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+
+# Define the fruit you want to check
+new_fruit = 'apple'
+
+# Check if the fruit is already in the list
+if new_fruit not in fruits:
+    fruits.append(new_fruit)
+    print(fruits)
+else:
+    print('That fruit already exist in the list')
